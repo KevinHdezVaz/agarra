@@ -20,7 +20,7 @@ export default class App extends Component {
     return <div className='demo'>
       <div className='input'>
         <span className='yourInput'>
-          Your input
+          Entrada de datos:
         </span>
         <TextField
           name='mathString'
@@ -29,7 +29,7 @@ export default class App extends Component {
           underlineFocusStyle={{borderColor: '#1d84ff'}}
         />
       </div>
-      <div className="stepsTitle">Steps</div>
+      <div className="stepsTitle">Pasos</div>
       <Steps input={this.state.mathString}/>
     </div>;
   }

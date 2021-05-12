@@ -50,7 +50,7 @@ export default class Step extends Component {
 
     const toggleText = <div onClick={this.toggleSubsteps}>
       <div className='toggleSubsteps'>
-        {this.state.substepsExpanded ? '▼' : '►'} substeps
+        {this.state.substepsExpanded ? '▼' : '►'} Subpasos
       </div>
     </div>;
 

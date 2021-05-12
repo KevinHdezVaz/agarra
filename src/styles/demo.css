@@ -8,9 +8,9 @@
 }
 
 .input {
-  align: left;
+  align-self: center;
 }
-
+ 
 .yourInput {
   margin-right: 10px;
   font-size: 25px;
@@ -19,4 +19,37 @@
 .stepsTitle {
   margin-top: 30px;
   font-size: 25px;
+  
 }
+@media only screen and (max-width: 480px) {
+
+
+  .input {
+    
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid white;
+ 
+    text-align: center;
+  }
+   
+  
+.stepsTitle {
+  align-self: center;
+    font-size: 25px;
+}
+
+.demo {
+  width: 350px;
+  align-self: center;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 50px 0;
+  background-color: white;
+}
+  
+ 
+ 
+
+ 
+  }

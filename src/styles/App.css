@@ -4,7 +4,7 @@ div {
 }
 
 .App {
-  background-color: lightgrey;
+  background-color: white;
   min-height: 100vh;
 }
 
@@ -14,7 +14,7 @@ div {
 
 .App-header {
   align-items: center;
-  background-color: #222;
+  background-color: #2196f3;
   padding: 20px;
   color: white;
 }
@@ -44,3 +44,14 @@ div {
 .socratic:hover {
   color: #1d84ff;
 }
+@media only screen and (max-width: 480px) {
+
+
+  .App-header {
+    align-items: center;
+ 
+    background-color: #2196f3;
+     color: white;
+  }
+  
+  }

@@ -11,20 +11,11 @@ export default class App extends Component {
       <MuiThemeProvider>
           <div className='App'>
           <div className='App-header'>
-            <img src={logo} className='App-logo' alt='logo' />
-            <h2>A step by step math solver</h2>
-            <div className='urls'>
-              <a className='source-code-url' href='https://github.com/socraticorg/mathsteps/'>
-                mathsteps on GitHub
-              </a>
-              <a className='source-code-url' href='https://github.com/evykassirer/mathsteps-website/'>
-                this demo on GitHub
-              </a>
-            </div>
+             <h2>EasyMath</h2>
+          
           </div>
           <Demo/>
-          <a className='socratic' href="http://socratic.org">Thanks to  Socratic</a>
-        </div>
+         </div>
       </MuiThemeProvider>
     );
   }
