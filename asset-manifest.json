@@ -1,14 +1,14 @@
 {
-  "main.css": "/agarra/static/css/main.306e13bd.chunk.css",
-  "main.js": "/agarra/static/js/main.9c2ed157.chunk.js",
-  "main.js.map": "/agarra/static/js/main.9c2ed157.chunk.js.map",
-  "static/js/1.507462bd.chunk.js": "/agarra/static/js/1.507462bd.chunk.js",
-  "static/js/1.507462bd.chunk.js.map": "/agarra/static/js/1.507462bd.chunk.js.map",
+  "main.css": "/agarra/static/css/main.58db32c7.chunk.css",
+  "main.js": "/agarra/static/js/main.ecfb75a9.chunk.js",
+  "main.js.map": "/agarra/static/js/main.ecfb75a9.chunk.js.map",
+  "static/js/1.2a08dc0e.chunk.js": "/agarra/static/js/1.2a08dc0e.chunk.js",
+  "static/js/1.2a08dc0e.chunk.js.map": "/agarra/static/js/1.2a08dc0e.chunk.js.map",
   "runtime~main.js": "/agarra/static/js/runtime~main.2cfa722b.js",
   "runtime~main.js.map": "/agarra/static/js/runtime~main.2cfa722b.js.map",
   "static/media/logo.png": "/agarra/static/media/logo.08d204cb.png",
-  "static/css/main.306e13bd.chunk.css.map": "/agarra/static/css/main.306e13bd.chunk.css.map",
+  "static/css/main.58db32c7.chunk.css.map": "/agarra/static/css/main.58db32c7.chunk.css.map",
   "index.html": "/agarra/index.html",
-  "precache-manifest.b721fdcc2f87b58bfb5e27c60b186719.js": "/agarra/precache-manifest.b721fdcc2f87b58bfb5e27c60b186719.js",
+  "precache-manifest.ac140ddb606353efe35e7ed70a5c049e.js": "/agarra/precache-manifest.ac140ddb606353efe35e7ed70a5c049e.js",
   "service-worker.js": "/agarra/service-worker.js"
 }
