@@ -40,11 +40,11 @@ export default class Steps extends Component {
 
     if (steps.length === 0) {
       return <div className='error'>
-        No steps for this input :( <br/><br/>
-        This is probably because either: <br/>
-        1. We don't support this math<br/>
-        2. This is already simplified/solved<br/>
-        3. We had trouble parsing your input
+          No hay pasos para esta entrada :( <br/> <br/>
+        Esto probablemente se deba a que: <br/>
+        1. Tu novia te dejo <br/>
+        2. Esto ya está simplificado / resuelto <br/>
+        3. Tuvimos problemas para analizar su entrada.
       </div>;
     }
 

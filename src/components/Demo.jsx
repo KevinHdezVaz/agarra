@@ -5,8 +5,9 @@ import Steps from './Steps.jsx';
 import '../styles/demo.css';
 
 export default class App extends Component {
+ 
   state = {
-    mathString: '2x + 4 + 5x + 4'
+    mathString: ''
   };
 
   onMathStringChange = (_, newValue) => {
@@ -15,6 +16,10 @@ export default class App extends Component {
     });
   }
 
+  componentDidMount(){
+    this.nameInput.focus();
+  }
+ 
   render() {
     // TODO: render input in tex as it's being drawn
     return <div className='demo'>
@@ -25,6 +30,8 @@ export default class App extends Component {
         <TextField
           name='mathString'
           value={this.state.mathString}
+          ref={this.myRef}
+          ref={(input) => { this.nameInput = input; }} 
           onChange={this.onMathStringChange}
           underlineFocusStyle={{borderColor: '#1d84ff'}}
         />
