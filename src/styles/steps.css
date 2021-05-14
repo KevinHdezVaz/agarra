@@ -15,6 +15,7 @@
 .error {
   align-self: center;
   margin-top: 20px;
+  color: orange;
    
 }
 
@@ -27,6 +28,7 @@
 
 .latex {
   padding: 7px 0;
+ 
 }
 
 .changeDescription {
@@ -34,3 +36,31 @@
   
   padding: 5px 0;
 }
+
+@media only screen and (max-width: 480px) {
+ 
+
+  .toggleSubsteps {
+    cursor: pointer;
+    user-select: none;
+    color: #072f5c;
+    align-self: center;
+    
+  }
+
+  .latex {
+    padding: 7px 0;
+    margin: auto;
+     align-self: center;
+
+  }
+  .changeDescription {
+    color: #2196f3;
+    margin: auto;
+    align-self: center;
+
+ 
+    padding: 10px 0;
+  }
+}
+  

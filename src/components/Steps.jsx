@@ -38,15 +38,24 @@ export default class Steps extends Component {
       ? mathsteps.solveEquation(input)
       : mathsteps.simplifyExpression(input);
 
+    
+
+      
     if (steps.length === 0) {
+
+      
       return <div className='error'>
-          No hay pasos para esta entrada :( <br/> <br/>
+          
+        Ingresa la ecuación que agregaste anteriormente. <br/> <br/>
         Esto probablemente se deba a que: <br/>
         1. Tu novia te dejo <br/>
+        
         2. Esto ya está simplificado / resuelto <br/>
-        3. Tuvimos problemas para analizar su entrada.
+        3. Aún no a ingresado datos.
       </div>;
-    }
+    }  
+
+
 
     return <div className='steps'>
       {this.renderSteps(steps)}

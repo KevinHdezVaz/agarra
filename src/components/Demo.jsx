@@ -31,6 +31,7 @@ export default class App extends Component {
           name='mathString'
           value={this.state.mathString}
           ref={this.myRef}
+          hintText='Ingresa la ecuación a realizar'
           ref={(input) => { this.nameInput = input; }} 
           onChange={this.onMathStringChange}
           underlineFocusStyle={{borderColor: '#1d84ff'}}

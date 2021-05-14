@@ -49,7 +49,7 @@ div {
 
   .App-header {
     align-items: center;
- 
+    padding: 0px;
     background-color: #2196f3;
      color: white;
   }
