@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9af508fe5a1aa08a1f50",
+    "revision": "a9be5754aa72aa7a2732",
     "url": "/agarra/static/css/main.2d47598d.chunk.css"
   },
   {
-    "revision": "9af508fe5a1aa08a1f50",
-    "url": "/agarra/static/js/main.9af508fe.chunk.js"
+    "revision": "a9be5754aa72aa7a2732",
+    "url": "/agarra/static/js/main.a9be5754.chunk.js"
   },
   {
     "revision": "25fddb8c4cc6a417e67c",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/agarra/static/media/logo.08d204cb.png"
   },
   {
-    "revision": "5631a94f68c398cc275492d64429532f",
+    "revision": "5eaf13cace4ee842d770527243e6153c",
     "url": "/agarra/index.html"
   }
 ];
