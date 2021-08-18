@@ -11,7 +11,7 @@ export default class App extends Component {
       <MuiThemeProvider>
           <div className='App'>
           <div className='App-header'>
-             <h2>EasyMath</h2>
+             <h2>SoluMath</h2>
           
           </div>
           <Demo/>
